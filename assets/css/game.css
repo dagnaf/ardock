@@ -1,0 +1,132 @@
+/*@import url(common.css);*/
+#game {
+	/*background-color: #f0f0f0;
+	padding: 0;
+	position: relative;
+	height: 480px;
+	width: 640px;*/
+}
+#game:-webkit-full-screen {
+/*	width: auto !important;
+	height: auto !important;*/
+}
+#game:-moz-full-screen {
+/*	width: auto !important;
+	height: auto !important;
+	text-align: center;*/
+}
+#instr .alert,
+#mask-auth .alert {
+/*	margin: 2% auto;
+	width: 70%;*/
+}
+.dialog.top {
+	/*top: 0;*/
+}
+
+/*#game:-webkit-full-screen .glyphicon-refresh {
+	margin-top: -30px;
+	margin-left: -30px;
+}*/
+
+/*this should be in chat.css, bad*/
+#room {
+	/*border-left: 5px dashed white;*/
+	/*background-color: rgba(240,240,240, 0.5);*/
+/*	height: 480px;
+	width: 300px;
+	height: 100%;
+	padding-right: 0px;*/
+}
+
+#application {
+/*	position: absolute;
+	top: 0;*/
+}
+#instr {
+}
+.mask {
+/*	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background-color: rgba(192, 192, 192, 0.4);*/
+}
+.dialog {
+/*	position: absolute;
+	width: 100%;*/
+	/*height: 33%;*/
+	/*bottom: 2%;*/
+	/*display: table;*/
+	/*text-align: center;*/
+}
+.center {
+	/*text-align: center;*/
+	/*display: table-cell;*/
+	/*vertical-align: middle;*/
+}
+#instr button {
+	/*font-size: 40px;*/
+}
+.btn-lg {
+	/*padding: 8px 16px;*/
+}
+#ctrl-icons .btn-group-vertical {
+	/*position: absolute;*/
+	/*right: 0;*/
+	/*cursor: pointer;*/
+	/*margin: 2%;*/
+	/*z-index: 5;*/
+}
+#game .glyphicon-refresh {
+	/*font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -20px;*/
+ 	/*z-index: 10;*/
+}
+
+#game .caret {
+	/*border-top: 10px solid transparent;*/
+	/*border-right: 5px solid transparent;
+	border-bottom: 5px solid;
+	border-left: 5px solid transparent;*/
+}
+#game .dropdown-menu {
+/*	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 300%;*/
+}
+.glyphicon {
+	/*line-height: inherit !important;*/
+}
+.dialog {
+	/*z-index: 10;*/
+}
+.mirror {
+	/*-webkit-transform: scale(-1,1);*/
+	/*-moz-transform: scale(-1,1);*/
+}
+
+#list-lig a.selected,
+#list-rec a.selected {
+	/*background-color: #e0e0e0;*/
+}
+
+#stats, .dg.main {
+	/*z-index: 10 !important;*/
+}
+
+.dg.main select {
+	/*color: black;*/
+}
+
+#info-content {
+	/*padding-top: 0px;*/
+	/*padding-bottom: 0px;*/
+}
+#info-content table {
+	/*margin-bottom: 0px;*/
+}

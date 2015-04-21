@@ -1,0 +1,23 @@
+/*common.css*/
+.glyphicon-refresh {
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+
+pre {
+  border: 0;
+  background-color: inherit;
+}
+
+#page-container {
+  padding-bottom: 30px !important;
+}
